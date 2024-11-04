@@ -2,7 +2,7 @@ name: Execute SSH Commands
 
 on:
   schedule:
-    - cron: "30 0,13 * * *"  # 每天 北京时间 早8点30分 晚9点30分 各运行一次
+    - cron: "30 0,13 * * *"
   workflow_dispatch:
 
 jobs:
